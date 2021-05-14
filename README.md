@@ -30,4 +30,4 @@ local machine. Rename that file index.html and replace the existing index.html f
 
 To run the container for access on a port other than 8080 such as 8081, build the container as described in above steps 2 and 3, then issue the following command to run 
 the container on port 8081: ```docker run -P -d -p 8081:80 <image id>```. Open a new tab in the browser of your choice and navigate to http://127.0.0.1:8081 to view the
-custom content
+custom content.
