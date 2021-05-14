@@ -2,9 +2,8 @@ import requests
 from time import sleep
 
 url = "https://google.com/"
-fail_url = "https://httpbin.org/status/404"
 
-response = requests.get(fail_url)
+response = requests.get(url)
 while response != []:
     if response.status_code == 200:
         print(response.status_code)
